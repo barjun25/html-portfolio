@@ -19,6 +19,18 @@ h1{
     line-height: 1.5;
 }
 
+p {
+    background-color: #396a98;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.newpage {
+    background-color: #396a98;
+}
+
 /* Navigation bar */
 
 .navbar{
