@@ -144,3 +144,9 @@ p{
     font-size: 2rem;
     margin: 10%;
 }
+
+.links {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #ef8172;
+}
