@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 #title{
-    background-color: #f5c45b;
+    background-color: #2dd2aa;
     color: #fff;
     text-align: center;
 }
@@ -20,7 +20,7 @@ h1{
 }
 
 p {
-    background-color: #f5c45b;
+    background-color: #2dd2aa;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 900;
@@ -151,7 +151,7 @@ p{
 #footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    background-color: #9e1cee;
+    background-color: #f80b0b;
     text-align: center;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
@@ -169,13 +169,14 @@ p{
 }
 
 #myprojects {
-    background-color: #f5c45b;
+    background-color: #2dd2aa;
     color: #fff;
     text-align: center;
 }
 
 .aboutpage {
-    background-color: #f5c45b;
+    background-color: #2dd2aa;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     font-size: 2rem;
 }
