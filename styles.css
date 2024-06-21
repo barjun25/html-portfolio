@@ -29,6 +29,7 @@ p {
 
 .newpage {
     background-color: #396a98;
+    text-align: center;
 }
 
 /* Navigation bar */
@@ -176,6 +177,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
     font-size: 2rem;
+    text-align: center;
 }
 
 .flip-card {
@@ -219,6 +221,7 @@ h3{
   /* Style the back side */
   .flip-card-back {
     color: white;
+
     transform: rotateY(180deg);
   }
 
