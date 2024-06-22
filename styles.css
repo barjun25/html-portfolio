@@ -125,7 +125,7 @@ h3{
 }
 
 .card-header {
-    background-color: #f80b0b;
+    background-color: #f44488;
     color: #fff;
 }
 
@@ -149,9 +149,10 @@ h3{
 #footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    background-color: #ed3b80;
+    padding: 2%;
+    background-color: #f44488;
     text-align: center;
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px, 0 0 1em blue, 0 0 0.2em #faffff;
 }
 
 .space {
@@ -221,10 +222,23 @@ h3{
   /* Style the back side */
   .flip-card-back {
     color: white;
-
     transform: rotateY(180deg);
   }
 
   #flip-card-back {
     font-size: 1.5rem;
+  }
+
+  #row1 {
+    margin: auto;
+    width: 100%;
+    border: 3px solid green;
+    padding: 40px;
+    align-content: center;
+  }
+
+  #row2 {
+    margin: auto;
+    padding: 10px;
+    align-content: center;
   }
