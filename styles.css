@@ -2,7 +2,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 #title{
-    background-color: #28bef2;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(57,106,152,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #2dd2aa;
     color: #fff;
     text-align: center;
 }
@@ -20,7 +21,8 @@ h1{
 }
 
 p {
-    background-color: #28bef2;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(57,106,152,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #2dd2aa;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 900;
@@ -28,30 +30,8 @@ p {
 }
 
 .newpage {
-    background-color: #28bef2;
+    background-color: #396a98;
     text-align: center;
-}
-
-/* Navigation bar */
-
-.navbar{
-    padding-bottom: 4.5rem;
-}
-
-.navbar-brand{
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.nav-item{
-    padding: 0 18px;
-}
-
-/* Download buttons */
-
-.download-button{
-    margin: 5% 3% 5% 0;
 }
 
 /* Features */
@@ -69,46 +49,6 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-}
-
-.feature-box{
-    text-align: center;
-    padding: 5%;
-}
-
-.icon{
-    color: #ef8172;
-    margin-bottom: 1rem;
-}
-
-.icon:hover{
-    color: #ff4c68;
-}
-
-/* Testimonials Section */
-
-#testimonials{
-    padding: 7% 15%;
-    text-align: center;
-    background-color: #B99B6B;
-    color: #fff;
-}
-
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-#press{
-    background-color: #B99B6B;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
@@ -131,17 +71,6 @@ h3{
 
 .card-body {
     align-items: center;
-}
-
-/* CTA Section */
-
-#cta {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    background-color: burlywood;
-    padding: 7% 15%;
-    color: #fff;
 }
 
 /* Footer Section */
@@ -168,12 +97,14 @@ h3{
 }
 
 #myprojects {
-    background-color: #28bef2;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(57,106,152,1) 35%, rgba(0,212,255,1) 100%);
+    background-color: #2dd2aa;
     color: #fff;
     text-align: center;
 }
 
 .aboutpage {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(57,106,152,1) 35%, rgba(0,212,255,1) 100%);
     background-color: #2dd2aa;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
@@ -229,14 +160,12 @@ h3{
     font-size: 1.5rem;
   }
 
-  #row1 {
-    margin: auto;
-    border: 3px solid green;
-    padding: 40px;
-    align-content: center;
-  }
+.row1 {
+    display: flex;
+    justify-content: center;
+}
 
-  #row2 {
-    margin: auto;
-    align-content: center;
-  }
+.row2 {
+    display: flex;
+    justify-content: center;
+}
