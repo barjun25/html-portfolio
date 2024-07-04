@@ -116,9 +116,9 @@ h3{
     background-color: transparent;
     width: 300px;
     height: 200px;
-    border: 1px solid #f1f1f1;
+    border: 1px solid #01460d;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin: 0% 5%;
+    margin: 0% 5%; 
   }
   
   /* This container is needed to position the front and back side */
@@ -169,4 +169,16 @@ h3{
 .row2 {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 1150px) {
+    .row2 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 870px) {
+    .row1 {
+        flex-direction: column;
+    }
 }
